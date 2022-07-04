@@ -19,7 +19,7 @@ int main(void)
 		while (i < 58)
 		{
 			g = 48;
-			while (g < 48)
+			while (g < 58)
 			{
 				if (e != i && e != g && i != g && e < 1 && i < g)
 				{
@@ -41,4 +41,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
